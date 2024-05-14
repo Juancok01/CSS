@@ -1,0 +1,250 @@
+.letras-separadas{
+    letter-spacing: 10px; 
+    color: #f8d653;
+    font-size: 30px; 
+}
+
+h5{
+    letter-spacing: 5px;  
+}
+
+.productos{
+    height: 240px;
+    width: 270px;
+}
+
+
+.banner{
+    background-image: url("IMG_8.jpg");
+    background-size: cover;
+    padding-bottom: 80px;
+    margin-top: 50px ;
+}
+
+.text_banner{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+
+}
+
+H2 {
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+.dere{
+    margin-right: 100px;
+}
+
+P{
+    margin-top: -20PX;
+}
+
+.u{
+    margin-bottom: 6px;
+    color: #f8d653;
+}
+
+.by{
+       font-size: 12px; 
+       padding-top: 4px;
+}
+.fo{
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    padding-left: 300px; 
+    padding-top: 40px;
+    flex-direction: row;
+}
+
+.imagen2 {
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.tex1 {
+    flex-grow: 1; 
+}
+
+.about .content {
+    background-color: #f6f9ff;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+
+  
+  .about h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #7e6606;
+   margin-bottom:-15px ;
+  }
+  
+  .about p {
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+  }
+  
+  .about .btn-read-more {
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #212529;
+    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  }
+  
+  .about .btn-read-more span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .about .btn-read-more i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .about .btn-read-more:hover i {
+    transform: translateX(5px);
+  }
+
+  .img2{
+
+    margin-top: 30px;
+  }
+
+  .ico{
+    margin-left: 5px;
+  }
+
+  .ico, .ico2{
+    color: blue;
+
+
+  }
+
+  .video{
+    margin-top:  40px ;
+
+  }
+
+  .services .service-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    height: 100%;
+    padding: 60px 30px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .services .service-box .icon {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+    transition: 0.3s;
+  }
+  
+  .services .service-box h3 {
+    color: #444444;
+    font-weight: 700;
+  }
+  
+  .services .service-box .read-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  
+  .services .service-box .read-more i {
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  
+  .services .service-box.blue {
+    border-bottom: 3px solid #7e6606;
+  }
+  
+  .services .service-box.blue .icon {
+    color: #7e6606;
+    background: #dbf3fe;
+  }
+  
+  .services .service-box.blue .read-more {
+    color: #7e6606;
+  }
+  
+  .services .service-box.blue:hover {
+    background: #7e6606;
+  }
+  
+  .services .service-box.orange {
+    border-bottom: 3px solid #2e2e2e;
+  }
+  
+  .services .service-box.orange .icon {
+    color: #2e2e2e;
+    background: #fde3c4;
+  }
+  
+  .services .service-box.orange .read-more {
+    color: #2e2e2e;
+  }
+  
+  .services .service-box.orange:hover {
+    background: #2e2e2e;
+  }
+  
+  .services .service-box.green {
+    border-bottom: 3px solid #7e6606;
+  }
+  
+  .services .service-box.green .icon {
+    color: #7e6606;
+    background: #cffddf;
+  }
+  
+  .services .service-box.green .read-more {
+    color: #7e6606;
+  }
+  
+  .services .service-box.green:hover {
+    background: #7e6606;
+  }
+  
+ 
+  
+  .services .service-box:hover h3,
+  .services .service-box:hover p,
+  .services .service-box:hover .read-more {
+    color: #fff;
+  }
+  
+  .services .service-box:hover .icon {
+    background: #fff;
+  }
